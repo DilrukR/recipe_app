@@ -1,0 +1,36 @@
+.container {
+  max-width: 500px;
+  overflow: hidden;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.571);
+  margin: 20px;
+  line-height: 2;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-family: var(--font-title);
+}
+
+img {
+  max-width: 300px;
+}
+
+ul {
+  text-align: left;
+  font-family: var(--font-body);
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: var(--font-title);
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 4rem 0;
+    padding: 2rem 1rem;
+  }
+}
